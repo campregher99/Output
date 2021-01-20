@@ -6,8 +6,8 @@ class Output
 private:
 	int value {0};
 public:
-	Output();
-	~Output();
+	Output() = default;
+	~Output() = default;
 	virtual bool setValue(int& _output);
 	virtual bool getValue(bool _isNew) const;
 
