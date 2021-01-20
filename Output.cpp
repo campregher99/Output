@@ -1,11 +1,11 @@
 #include "Output.h"
 
-int getValue()
+int Output::getValue()
 {
 	return value;
 }
 
-bool setValue(int& _value)
+bool Output::setValue(int& _value)
 {
 	if(_value>MAAX_VAL)
 		return false;
